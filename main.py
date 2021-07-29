@@ -9,3 +9,5 @@ url = "http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+API_key
 data = requests.get(url).json()
 
 pprint(data)
+
+# Made By Yasin Rezvani 
