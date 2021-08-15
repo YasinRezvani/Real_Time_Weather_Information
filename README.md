@@ -3,7 +3,7 @@ The simple and with out GUI weather app
 I use openweather API : https://openweathermap.org/ 
 # How Run
 ### First you fill the input "Enter The City: " for example **New York** and After give json data like this code: 
-{'base': 'stations',
+> {'base': 'stations',
  '**clouds**': {'all': 90},
  'cod': 200,
  'coord': {'lat': 40.7143, 'lon': -74.006},
