@@ -1,4 +1,4 @@
-# Weather_app
+# Weather_Information
 The simple and with out GUI weather app
 I use openweather API : https://openweathermap.org/ 
 # How Run
