@@ -1,5 +1,5 @@
 # Weather_Information
-The simple and with out GUI weather app and I use <a href="https://openweathermap.org/" target="_blank">openweather</a> API 
+The simple and with out GUI weather app and I use [openweather](https://openweathermap.org/) API 
 # Install the requirements
 First you should install the requirements:
 ```
