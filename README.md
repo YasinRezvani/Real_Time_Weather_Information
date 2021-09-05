@@ -1,37 +1,31 @@
-# Weather_Information
+# Real_Time_Weather_Information
 The simple and with out GUI weather app and I use [openweather](https://openweathermap.org/) API 
 # Install the requirements
 First you should install the requirements:
 ```
-$ pip install requests
+$ pip install requests beautifultable
 ```
 # How Work
-### First you fill the input "Enter The City: " for example **New York** and After give json data like this code: 
-> {'base': 'stations',
- '**clouds**': {'all': 90},
- 'cod': 200,
- 'coord': {'lat': 40.7143, 'lon': -74.006},
- 'dt': 1627549988,
- 'id': 5128581,
- 'main': {'feels_like': 293.88,
-          'humidity': 85,
-          'pressure': 1016,
-          'temp': 293.56,
-          'temp_max': 296.12,
-          'temp_min': 288.76},
- 'name': **'New York'**,
- 'sys': {'country': 'US',
-         'id': 2039034,
-         'sunrise': 1627552199,
-         'sunset': 1627604087,
-         'type': 2},
- 'timezone': -14400,
- 'visibility': 10000,
- 'weather': [{'description': 'overcast clouds',
-              'icon': '04n',
-              'id': 804,
-              'main': 'Clouds'}],
- 'wind': {'deg': 240, 'speed': 2.57}}
-
+### First you fill the input "Enter The City: " for example **New York** and After give data in table like this code: 
+> ╭──────────────┬───────────╮  
+>  │              │ New York  │  
+>  ├──────────────┼───────────┤  
+>  │   Clouds:    │ clear sky │  
+>  ├──────────────┼───────────┤  
+>  │ Temperature: │   18 °C   │  
+>  ├──────────────┼───────────┤  
+>  │  Humidity:   │   80 %    │  
+>  ├──────────────┼───────────┤  
+>  │  Time Zone:  │  -4.0 h   │  
+>  ├──────────────┼───────────┤  
+>  │ Wind Speed:  │ 2.06 m/s  │  
+> ╰──────────────┴───────────╯  
+ 
+ 
 # Demo 🎉
-![demo](https://user-images.githubusercontent.com/77124662/129491298-2ace56ab-852f-4c0d-bdf8-01fa2e87f6cd.PNG)
+### Simple
+![demo_simple](https://user-images.githubusercontent.com/77124662/132121423-a36db532-985a-4487-9170-aac8b9788897.PNG)
+### GUI
+![demo_gui](https://user-images.githubusercontent.com/77124662/132121425-7c689577-e460-4f42-8864-1260ce4f25c8.PNG)
+
+
