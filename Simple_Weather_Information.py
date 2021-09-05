@@ -19,7 +19,7 @@ table.rows.append([temp])
 table.rows.append([humidity])
 table.rows.append([timezone])
 table.rows.append([wind_speed])
-table.rows.header = ["Clouds:", "Temperature:", "Humidity:", "Time Zone" , "Wind Speed:"]
+table.rows.header = ["Clouds:", "Temperature:", "Humidity:", "Time Zone:" , "Wind Speed:"]
 table.set_style(BeautifulTable.STYLE_BOX_ROUNDED)
 print(table)
 input()
