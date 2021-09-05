@@ -1,7 +1,11 @@
-# Weather_app
-The simple and with out GUI weather app
-I use openweather API : https://openweathermap.org/ 
-# How Run
+# Weather_Information
+The simple and with out GUI weather app and I use [openweather](https://openweathermap.org/) API 
+# Install the requirements
+First you should install the requirements:
+```
+$ pip install requests
+```
+# How Work
 ### First you fill the input "Enter The City: " for example **New York** and After give json data like this code: 
 > {'base': 'stations',
  '**clouds**': {'all': 90},
