@@ -6,7 +6,7 @@ First you should install the requirements:
 $ pip install requests beautifultable
 ```
 # How Work
-### First you fill the input "Enter The City: " for example **New York** and After give data in table like this code: 
+After you fill the input "Enter The City: " for example **New York** and After give data in table like this text: 
 > ╭──────────────┬───────────╮  
 >  │              │ New York  │  
 >  ├──────────────┼───────────┤  
