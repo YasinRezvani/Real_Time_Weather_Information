@@ -1,4 +1,3 @@
-﻿from re import T
 from time import timezone
 import requests
 from tkinter import * 
