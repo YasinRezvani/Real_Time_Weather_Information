@@ -3,7 +3,7 @@ The simple and with out GUI weather app and I use [openweather](https://openweat
 # Install the requirements
 First you should install the requirements:
 ```
-$ pip install requests beautifultable
+pip install requests beautifultable
 ```
 # Demo 🎉
 ### Simple
